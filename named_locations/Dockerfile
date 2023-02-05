@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.23
 LABEL author="Marvyn Zalewski <mszalewski@ownpixel.com>"
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
